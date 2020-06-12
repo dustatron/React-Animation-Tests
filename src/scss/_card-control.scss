@@ -9,7 +9,8 @@
 }
 
 .card-container {
-  width: 80%;
+  max-width: 1200px;
+  min-width: 854px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

@@ -13,10 +13,10 @@
     z-index: 10px;
     top: 10px;
     left: 10px;
-    font-size: 1.6em;
+    font-size: 2em;
     font-weight: 800;
     background-color: grey;
-    padding: 5px;
+    padding: 5px 20px;
   }
   &-img {
     height: 100%;
@@ -30,7 +30,8 @@
     left: 10px;
     background: grey;
     width: 100%;
-    padding: 2px 12px;
+    padding: 2px 20px;
+    font-size: 1.3em;
   }
 
   &:hover {
