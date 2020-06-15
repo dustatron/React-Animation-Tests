@@ -9,9 +9,15 @@
 }
 
 .card-container {
+  margin-top: 50px;
   max-width: 1200px;
   min-width: 854px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  &-animated-box {
+    width: 30%;
+    padding: 5px;
+  }
 }
