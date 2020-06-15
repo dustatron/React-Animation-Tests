@@ -66,3 +66,10 @@
   .card:hover .card-title {
     top: 30px;
     opacity: 1; }
+
+html {
+  min-height: 100%; }
+
+body {
+  background-clip: border-box;
+  background: linear-gradient(-20deg, #1cb5e0 0%, #000851 100%); }

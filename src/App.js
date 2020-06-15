@@ -1,9 +1,12 @@
 import React, { Fragment } from 'react';
-import CardControl from './CardControl';
+import CardControl from './components/CardControl';
+import './scss/_body.scss';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <Fragment>
+      <Navbar />
       <CardControl />
     </Fragment>
   );

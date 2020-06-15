@@ -1,7 +1,7 @@
 import React from 'react';
-import SampleData from './sampleData';
+import SampleData from '../sampleData';
 import Card from './Card';
-import './scss/_card-control.scss';
+import '../scss/_card-control.scss';
 import { animated, useTransition } from 'react-spring';
 
 const CardControl = (props) => {
