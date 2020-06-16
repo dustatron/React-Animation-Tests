@@ -18,7 +18,7 @@ function App() {
     },
     enter: [
       {
-        opacity: 0.5,
+        opacity: 0.8,
         top: '0',
       },
       {

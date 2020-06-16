@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { useState } from 'react';
 import SampleData from '../sampleData';
 import '../scss/_show.scss';
 import { Link } from 'react-router-dom';
@@ -8,8 +8,10 @@ const Show = ({ match }) => {
     (p) => p.id.toString() === match.params.id
   );
 
+  const [grow, setGrow] = useState(false);
+
   return (
-    <Fragment>
+    <div className='show-container'>
       <div className='show-box'>
         <div className='show-box-left'>
           <div className='img-box'>
@@ -30,13 +32,18 @@ const Show = ({ match }) => {
             debitis accusantium temporibus odit? Quidem, impedit officia amet
             dolore ullam placeat iste ratione ipsa similique temporibus
           </p>
-          <button className='buy-now'> Buy Now </button>
+          <div className={`buy-now `} onClick={() => setGrow(!grow)}>
+            Buy Now
+          </div>
+          <div
+            className={`buy-now-ball ${grow ? ' grow' : ' shrink'}`}
+            onClick={() => setGrow(!grow)}></div>
         </div>
         <Link to='/'>
-          <button className='back'> Back </button>
+          <div className='back'> Back </div>
         </Link>
       </div>
-    </Fragment>
+    </div>
   );
 };
 
