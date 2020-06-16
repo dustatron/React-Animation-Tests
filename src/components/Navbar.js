@@ -18,7 +18,11 @@ const Navbar = () => {
             <Link to='/about'> Learn More </Link>
           </li>
           <li>
-            <Link to='/about'> Pricing </Link>
+            <a
+              href='https://github.com/dustatron/React-Animation-Tests'
+              target='_blank'>
+              Github Link
+            </a>
           </li>
         </ul>
       </nav>
