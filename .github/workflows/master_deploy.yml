@@ -20,6 +20,7 @@ jobs:
       - name: Deploy to GH Pages
         run: |
           git config --global user.email ${{secrets.GEMAIL}}
-          git config --global user.name "${{secrets.GUSERNAME}}
+          git config --global user.name ${{secrets.GUSERNAME}}
           git remote set-url origin https://${{secrets.GTOKEN}}@github.com/React-Animation-Tests.git
+          npm run redeploy deploy
           npm run deploy
