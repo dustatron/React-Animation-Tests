@@ -21,6 +21,5 @@ jobs:
         run: |
           git config --global user.email "dustymccord@gmail.com"
           git config --global user.name "dustatron"
-          git remote set-url origin https://${{secrets.GTOKEN}}@github.com/dustatron/React-Animation-Tests.git
-          npm run redeploy deploy
+          git remote set-url origin https://bf4165f171345c6f9e7be547f6fbf604f589c539@github.com/dustatron/React-Animation-Tests.git
           npm run deploy
