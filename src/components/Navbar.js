@@ -20,7 +20,8 @@ const Navbar = () => {
           <li>
             <a
               href='https://github.com/dustatron/React-Animation-Tests'
-              target='_blank'>
+              target='_blank'
+              rel='noopener noreferrer'>
               Github Link
             </a>
           </li>

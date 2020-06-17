@@ -5,13 +5,7 @@ import CardControl from './components/CardControl';
 import Show from './components/Show';
 import NotFound from './components/NotFound';
 import About from './components/About';
-import {
-  Switch,
-  Route,
-  useLocation,
-  __RouterContext,
-  Redirect,
-} from 'react-router-dom';
+import { Switch, Route, __RouterContext, Redirect } from 'react-router-dom';
 import { useTransition, animated } from 'react-spring';
 
 function App() {

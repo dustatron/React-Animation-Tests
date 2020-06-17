@@ -3,8 +3,7 @@ import SampleData from '../sampleData';
 import Card from './Card';
 import '../scss/_card-control.scss';
 import { animated, useTransition } from 'react-spring';
-import { Link, Route } from 'react-router-dom';
-import Show from './Show';
+import { Link } from 'react-router-dom';
 
 const CardControl = ({ match }) => {
   const transition = useTransition(SampleData, (SampleData) => SampleData.id, {
