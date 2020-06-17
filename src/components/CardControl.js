@@ -15,7 +15,7 @@ const CardControl = ({ match }) => {
 
   return (
     <div className='card-controller'>
-      <h2>Hello</h2>
+      <h2>test</h2>
       <div className='card-container'>
         {/* <Route exact path={`${match.url}/show/:id`} component={Show} /> */}
         {transition.map(({ item, key, props }) => (
